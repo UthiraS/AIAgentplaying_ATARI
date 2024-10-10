@@ -19,7 +19,8 @@ This project implements Deep Q-Network (DQN) agents for playing Atari games usin
 ├── test.py                      # Script for testing the trained DQN agent
 └── README.md                    # Project overview and setup instructions
 ```
-
+## Results
+![Reward vs Epsiode Of Various DQN](https://github.com/UthiraS/AIAgentplaying_ATARI/blob/main/AIagent_ATARI.png)
 ## Setup
 
 ### Recommended IDE
