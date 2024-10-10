@@ -20,31 +20,6 @@ This project implements Deep Q-Network (DQN) agents for playing Atari games usin
 └── README.md                    # Project overview and setup instructions
 ```
 
-Here's how you can expand your README.md to include the setup instructions, environment configuration, and how to run your project, along with the goal of your implementation:
-
----
-
-# CS595 - DQN_ATARI
-
-This project implements Deep Q-Network (DQN) agents to play Atari games using reinforcement learning. The main goal is to train an agent to achieve a high score in Breakout using PyTorch and OpenAI's Gymnasium framework.
-
-## Project Structure
-
-```bash
-.
-├── agent.py                    # Core implementation of the DQN agent
-├── agent_dqn_duel.py            # Dueling DQN implementation
-├── agent_dqn.py                 # Vanilla DQN implementation
-├── agent_dqn_epi.py             # Episodic DQN variant
-├── argument.py                  # Command line argument parsing
-├── atari_wrapper.py             # Environment wrappers for Atari games
-├── dqn_model.py                 # Definition of the neural network model for DQN
-├── environment.py               # Atari environment setup and initialization
-├── main.py                      # Main script to train and run the DQN agents
-├── test.py                      # Script for testing the trained DQN agent
-└── README.md                    # Project overview and setup instructions
-```
-
 ## Setup
 
 ### Recommended IDE
